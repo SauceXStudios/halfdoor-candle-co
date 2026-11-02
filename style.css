@@ -33,6 +33,12 @@ h2{font-family:'Instrument Serif',serif;font-weight:400;font-size:40px;margin-bo
 .about p{color:var(--soft);font-size:17px;margin-top:14px}
 .product{display:grid;grid-template-columns:1fr 1fr;gap:56px;padding:56px 0 80px}
 .product img{width:100%;border-radius:18px;display:block}
+.vid{position:relative;margin:0;align-self:start}
+.vid video{width:100%;aspect-ratio:1;object-fit:cover;object-position:50% 28%;border-radius:18px;display:block;background:#E9DFCF}
+.snd{position:absolute;right:14px;bottom:52px;border:0;cursor:pointer;background:var(--ink);color:var(--paper);font:600 13px 'Work Sans',sans-serif;padding:9px 14px;border-radius:999px;opacity:.92}
+.vid figcaption{margin-top:10px;font-size:13px;color:var(--soft)}
+.card .play{position:absolute;left:12px;top:12px;background:var(--ink);color:var(--paper);font-size:11px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;padding:4px 9px;border-radius:999px}
+.card{position:relative}
 .crumb{font-size:13px;color:var(--soft);margin-bottom:18px}
 .product h1{font-family:'Instrument Serif',serif;font-weight:400;font-size:58px;line-height:1}
 .product .price{font-size:22px;font-weight:600;margin-top:14px}
